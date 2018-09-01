@@ -35,8 +35,6 @@
                 </ListView.View>
             </ListView>
         </GroupBox>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="407,96,0,0" VerticalAlignment="Top" Width="167" Height="59" Click="Button_Click"/>
-        <Button Content="第三次更改" HorizontalAlignment="Left" VerticalAlignment="Top" Width="167" Margin="407,196,0,0" Height="61"/>
 
     </Grid>
 </Window>

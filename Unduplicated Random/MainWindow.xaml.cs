@@ -86,5 +86,10 @@ namespace Unduplicated_Random
             int i = 9;
             MessageBox.Show(i.ToString());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("1234");
+        }
     }
 }
