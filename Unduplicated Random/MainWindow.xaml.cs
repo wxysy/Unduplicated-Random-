@@ -72,6 +72,7 @@ namespace Unduplicated_Random
             }
             //展示结果
             lv_resultShow.ItemsSource = resultShowClassList;
+            dataGrid_Compare.ItemsSource = resultShowClassList;
         }
 
         public class ResultShowClass

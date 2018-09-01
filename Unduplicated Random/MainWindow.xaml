@@ -35,6 +35,12 @@
                 </ListView.View>
             </ListView>
         </GroupBox>
+        <DataGrid x:Name="dataGrid_Compare" HorizontalAlignment="Left" Height="322" Margin="264,10,0,0" VerticalAlignment="Top" Width="327" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=ID}" ClipboardContentBinding="{x:Null}" Header="序号"/>
+                <DataGridTextColumn Binding="{Binding Path=Result}" ClipboardContentBinding="{x:Null}" Header="题目号" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
     </Grid>
 </Window>
