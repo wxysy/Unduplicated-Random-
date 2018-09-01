@@ -81,5 +81,10 @@ namespace Unduplicated_Random
         }
         ObservableCollection<ResultShowClass> resultShowClassList = new ObservableCollection<ResultShowClass>();
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int i = 5;
+            MessageBox.Show(i.ToString());
+        }
     }
 }
