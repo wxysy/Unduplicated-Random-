@@ -80,16 +80,5 @@ namespace Unduplicated_Random
             public int Result { get; set; }
         }
         ObservableCollection<ResultShowClass> resultShowClassList = new ObservableCollection<ResultShowClass>();
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            int i = 9;
-            MessageBox.Show(i.ToString());
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("1234");
-        }
     }
 }
