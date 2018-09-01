@@ -35,12 +35,14 @@
                 </ListView.View>
             </ListView>
         </GroupBox>
-        <DataGrid x:Name="dataGrid_Compare" HorizontalAlignment="Left" Height="322" Margin="264,10,0,0" VerticalAlignment="Top" Width="327" AutoGenerateColumns="False" IsReadOnly="True">
+        <DataGrid x:Name="dataGrid_Compare" HorizontalAlignment="Left" Height="322" Margin="264,10,0,0" VerticalAlignment="Top" Width="327" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectionUnit="Cell">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Path=ID}" ClipboardContentBinding="{x:Null}" Header="序号"/>
                 <DataGridTextColumn Binding="{Binding Path=Result}" ClipboardContentBinding="{x:Null}" Header="题目号" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="264,337,0,0" Height="56" Width="327"><Run Text="怎么确定选择一行还是选择一个单元格"/><LineBreak/><Run Text="DataGrid--&gt;"/><Run Text="行"/><Run Text="--&gt;"/><Run Text="SelectionUnit"/><Run Text="--"/><Run Text="&gt;"/><Run Text="Cell单元格/FullRow整行/CellOrRowHeader"/></TextBlock>
+        <TextBox x:Name="tb_DGshow" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding SelectedCells/Item, ElementName=dataGrid_Compare, Mode=OneWay}"  VerticalAlignment="Top" Width="120" Margin="596,10,0,0"/>
 
     </Grid>
 </Window>
