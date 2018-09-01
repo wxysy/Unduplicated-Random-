@@ -1,0 +1,40 @@
+﻿<Window x:Class="Unduplicated_Random.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unduplicated_Random"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_Unduplicated_Random" Content="产生不重复随机数" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" Width="154" Height="52" Click="btn_Unduplicated_Random_Click"/>
+        <GroupBox Header="主要参数设定" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top">
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,-2,-2">
+                <StackPanel Margin="5" Orientation="Horizontal" Height="26">
+                    <Label Content="上限" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBox x:Name="parameter_Upper" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Text="100"/>
+                </StackPanel>
+                <StackPanel Margin="5" Orientation="Horizontal" Height="25">
+                    <Label Content="下限" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBox x:Name="parameter_Lower" HorizontalAlignment="Left" Height="23" Margin="0,2,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="40"/>
+                </StackPanel>
+                <StackPanel Margin="5" Orientation="Horizontal" Height="25">
+                    <Label Content="生成随机数数量" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBox x:Name="parameter_Number" HorizontalAlignment="Left" Height="23" Margin="0,2,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="40"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <TextBlock HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="211" Width="154"><Run Text="解决思想："/><LineBreak/><Run Text="用一个数组来保存索引号，先随机生成一个数组位置，然后把这个位置的索引号取出来，并把最后一个索引号复制到当前的数组位置，然后使随机数的上限减一，具体如：先把这100个数放在一个数组内，每次随机取一个位置（第一次是1-100，第二次是1-99，...），将该位置的数用最后的数代替。"/></TextBlock>
+        <GroupBox Header="GroupBox" HorizontalAlignment="Left" Height="399" Margin="169,10,0,0" VerticalAlignment="Top" >
+            <ListView x:Name="lv_resultShow" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="序号" DisplayMemberBinding="{Binding ID}"/>
+                        <GridViewColumn Header="题目号" DisplayMemberBinding="{Binding Result}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </GroupBox>
+
+    </Grid>
+</Window>

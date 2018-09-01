@@ -1,0 +1,15 @@
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\bin\Debug\Unduplicated Random.exe.config
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\bin\Debug\Unduplicated Random.exe
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\bin\Debug\Unduplicated Random.pdb
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.csprojResolveAssemblyReference.cache
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\MainWindow.g.cs
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\App.g.cs
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random_MarkupCompile.cache
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random_MarkupCompile.lref
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\MainWindow.baml
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.g.resources
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated_Random.Properties.Resources.resources
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.csproj.GenerateResource.cache
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.csproj.CoreCompileInputs.cache
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.exe
+D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.pdb
