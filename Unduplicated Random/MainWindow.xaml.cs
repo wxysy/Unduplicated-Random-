@@ -83,7 +83,7 @@ namespace Unduplicated_Random
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int i = 5;
+            int i = 9;
             MessageBox.Show(i.ToString());
         }
     }
