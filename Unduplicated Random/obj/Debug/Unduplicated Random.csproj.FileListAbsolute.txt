@@ -16,7 +16,6 @@ D:\C# Programs\Programming\Unduplicated Random不重复的随机数\Unduplicated
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\bin\Debug\Unduplicated Random.exe.config
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\bin\Debug\Unduplicated Random.exe
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\bin\Debug\Unduplicated Random.pdb
-D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.csprojResolveAssemblyReference.cache
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\MainWindow.g.cs
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\App.g.cs
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random_MarkupCompile.cache
@@ -28,3 +27,4 @@ D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Rand
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.csproj.CoreCompileInputs.cache
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.exe
 D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.pdb
+D:\C# Programs\GitHub\Unduplicated Random不重复的随机数\Unduplicated Random\obj\Debug\Unduplicated Random.csprojAssemblyReference.cache
