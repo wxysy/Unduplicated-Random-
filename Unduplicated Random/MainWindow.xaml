@@ -24,8 +24,8 @@
                 </StackPanel>
             </StackPanel>
         </GroupBox>
-        <TextBlock HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="211" Width="154"><Run Text="解决思想："/><LineBreak/><Run Text="用一个数组来保存索引号，先随机生成一个数组位置，然后把这个位置的索引号取出来，并把最后一个索引号复制到当前的数组位置，然后使随机数的上限减一，具体如：先把这100个数放在一个数组内，每次随机取一个位置（第一次是1-100，第二次是1-99，...），将该位置的数用最后的数代替。"/></TextBlock>
-        <GroupBox Header="GroupBox" HorizontalAlignment="Left" Height="399" Margin="169,10,0,0" VerticalAlignment="Top" Width="110" >
+        <TextBlock HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="211" Width="200"><Run Text="解决思想："/><LineBreak/><Run Text="用一个数组来保存索引号，先随机生成一个数组位置，然后把这个位置的索引号取出来，并把最后一个索引号复制到当前的数组位置，然后使随机数的上限减一，具体如：先把这100个数放在一个数组内，每次随机取一个位置（第一次是1-100，第二次是1-99，...），将该位置的数用最后的数代替。"/><LineBreak/><Run Text="最后从数组反向提取，既是随机选出的数字。"/></TextBlock>
+        <GroupBox Header="GroupBox" HorizontalAlignment="Left" Height="399" Margin="215,10,0,0" VerticalAlignment="Top" Width="110" >
             <ListView x:Name="lv_resultShow" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <ListView.View>
                     <GridView>
