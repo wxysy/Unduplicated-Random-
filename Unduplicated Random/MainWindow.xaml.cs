@@ -59,9 +59,11 @@ namespace Unduplicated_Random
                 tempValue = random_index[random_index_choose];
                 random_index[random_index_choose] = random_index[number_total - 1];
                 random_index[number_total - 1] = tempValue;
+
                 //保存第一个结果选出的值
                 /*将每次random_index[]的最后一个值保存到最终的结果数列中*/
                 resultShowClassList.Add(new ResultShowClass { ID = j, Result = random_index[number_total - 1] });
+
                 //将索引值减小，确保最后一个索引只用一次。
                 number_total--;       
             }
